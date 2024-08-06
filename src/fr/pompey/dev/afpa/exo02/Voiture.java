@@ -3,7 +3,7 @@ package fr.pompey.dev.afpa.exo02;
 public class Voiture {
 
 
-    public char marque;
+    public String marque;
     public double prix;
 
     public Voiture() {
@@ -11,13 +11,13 @@ public class Voiture {
     };
 
     // Getter & Setter
-    public char getMarque() {
+    public String getMarque() {
 
         return marque;
 
     }
 
-    public void setMarque(char marque) {
+    public void setMarque(String marque) {
 
         this.marque = marque;
 
@@ -37,7 +37,7 @@ public class Voiture {
 
     public void afficher() {
 
-        System.out.println("marque: " + marque + " prix: " + prix);
+        System.out.println("marque: " + marque + " \nprix: " + prix);
 
     };
 

@@ -6,7 +6,10 @@ public class Execution {
 
         Voiture voiture01 = new Voiture();
 
-        System.out.println(voiture01.toString());
+        voiture01.setMarque("Renault");
+        voiture01.setPrix(17000);
+
+        voiture01.afficher();
 
     }
 }
