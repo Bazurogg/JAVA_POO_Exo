@@ -12,21 +12,33 @@ public class Voiture {
 
     // Getter & Setter
     public char getMarque() {
+
         return marque;
+
     }
 
     public void setMarque(char marque) {
+
         this.marque = marque;
+
     }
 
     public double getPrix() {
+
         return prix;
+
     }
 
     public void setPrix(double prix) {
+
         this.prix = prix;
+
     }
 
+    public void afficher() {
 
+        System.out.println("marque: " + marque + " prix: " + prix);
+
+    };
 
 }
