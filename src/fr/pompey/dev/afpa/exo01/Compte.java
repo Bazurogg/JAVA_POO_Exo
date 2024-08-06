@@ -13,14 +13,60 @@ public class Compte {
      */
 
     // attributs
-    public double solde ;
+    public double solde;
 
-    public static void main(String[] args) {
+    // construct
 
-        Compte compte = new Compte();
+    /**
+     * Instanciation de "Compte"
+     *
+     * @param solde le solde
+     *
+     */
 
-        System.out.println(compte);
+    public Compte(double solde) {
+
+        this.solde = solde;
+
+    };
+
+    // getter
+    public double getSolde() {
+
+        return solde;
 
     }
+
+    // setter
+    private void setSolde(double solde) {
+
+        this.solde = solde;
+
+    }
+
+
+    /**
+     * Déclaration des éléments d'instance
+     */
+
+
+    // methodes
+    public void deposer(double credit) {
+
+        this.solde = this.solde + credit;
+
+    };
+
+    public void retirer(double credit) {
+
+        this.solde = this.solde - credit;
+
+    };
+
+    public void afficher() {
+
+        System.out.println("Le solde du compte est : " + this.solde + " €");
+
+    };
 
 }
