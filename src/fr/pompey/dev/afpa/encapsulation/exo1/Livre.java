@@ -52,7 +52,7 @@ public class Livre {
 
     public void afficher() {
 
-        System.out.println("Titre : " + this.Titre + "\nauteur : " + this.Auteur);
+        System.out.println("Titre : " + this.Titre + "\nauteur : " + this.Auteur + "\n" + this.NbPages);
 
     };
 
@@ -63,6 +63,24 @@ public class Livre {
         System.out.println("Le changement d'auteur à bien été effetué");
 
         afficher();
+
+    }
+
+    public void changerNbPages(Integer newNbPages){
+
+        if (newNbPages > 0){
+
+            this.setNbPages(newNbPages);
+
+            System.out.println("Le nombres de pages du livre à été modifié");
+
+            afficher();
+        }
+
+        else {
+            System.err.println("Veuillez entrer un nombre de pages");
+        }
+
 
     }
 
@@ -77,6 +95,8 @@ public class Livre {
         livre2.afficher();
 
         livre1.changerAuteur("Marcel");
+
+        livre1.changerNbPages(300);
 
     }
 
