@@ -68,11 +68,10 @@ public class Cercle {
 
     }
 
-    public void afficher(){
+    public void afficherCercle(){
 
+        System.out.println("le rayon du cercle est de : " + this.rayon + "\nSon centre a pour coordonnée :" + "\nEn abscisse : " + this.centre.getAbscisse()+ "et en ordonné : " + this.centre.getOrdonnee());
 
-
-        
     }
 
 
