@@ -47,8 +47,24 @@ public class Cercle {
 
     public void testAppartenance(Point p){
 
-        
+        // calcul de la distance entre les coordonnées en abscisse du point et le centre du cercle
 
+        double distancePx = (p.getAbscisse() - this.centre.getAbscisse());
+        double distancePy = (p.getOrdonnee() - this.centre.getOrdonnee());
+
+        double distanceP = Math.sqrt(distancePx*distancePx + distancePy*distancePy);
+
+        // on fais la comparaison entre notre distance "distanceP" du point et le rayon du cercle
+        if (distanceP == this.rayon){
+
+            System.out.println("Le point appartiens bien au cercle :) !");
+
+        }
+        else {
+
+            System.out.println("Le point n'appartiens pas au cercle :( !");
+
+        }
 
     }
 
