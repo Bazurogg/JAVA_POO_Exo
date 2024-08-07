@@ -28,13 +28,13 @@ public class Rectangle {
         Largeur = largeur;
     }
 
-    public double calSurface(){
+    public double aireRectangle(){
 
         return this.Longueur * this.Largeur;
 
     }
 
-    public double calPerimetre(){
+    public double perimetreRectangle(){
 
         return (this.Longueur + this.Largeur)*2;
 
@@ -42,8 +42,8 @@ public class Rectangle {
 
     public void afficher(){
 
-        double surface = calSurface();
-        double perimetre = calPerimetre();
+        double surface = aireRectangle();
+        double perimetre = perimetreRectangle();
 
         System.out.println("Caractéristiques du rectangle :");
         System.out.println("Longueur : " + this.Longueur + " cm");
