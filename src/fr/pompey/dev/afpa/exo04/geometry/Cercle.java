@@ -45,6 +45,13 @@ public class Cercle {
 
     }
 
+    public void testAppartenance(Point p){
+
+        
+
+
+    }
+
 
 
 
