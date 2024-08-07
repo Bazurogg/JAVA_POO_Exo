@@ -1,4 +1,4 @@
-package fr.pompey.dev.afpa.exo04.geometry;
+package fr.pompey.dev.afpa.concept.geometry;
 
 public class Cercle {
 

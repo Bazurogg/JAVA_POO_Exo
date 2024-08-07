@@ -1,4 +1,4 @@
-package fr.pompey.dev.afpa.exo03;
+package fr.pompey.dev.afpa.concept.exo03;
 
 public class Rectangle {
 

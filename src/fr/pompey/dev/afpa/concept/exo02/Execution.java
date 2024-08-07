@@ -1,4 +1,4 @@
-package fr.pompey.dev.afpa.exo02;
+package fr.pompey.dev.afpa.concept.exo02;
 
 public class Execution {
 

@@ -1,6 +1,4 @@
-package fr.pompey.dev.afpa.exo03;
-
-import fr.pompey.dev.afpa.exo02.Voiture;
+package fr.pompey.dev.afpa.concept.exo03;
 
 public class TestRectangle {
 
