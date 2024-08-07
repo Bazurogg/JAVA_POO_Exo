@@ -49,11 +49,22 @@ public class Livre {
 
     // Methode
 
+
     public void afficher() {
 
         System.out.println("Titre : " + this.Titre + "\nauteur : " + this.Auteur);
 
     };
+
+    public void changerAuteur(String newAuteur){
+
+        this.Auteur = newAuteur;
+
+        System.out.println("Le changement d'auteur à bien été effetué");
+
+        afficher();
+
+    }
 
     // Ajout 2 livres + affichage
     public static void main(String[] args) {
@@ -64,6 +75,8 @@ public class Livre {
         livre1.afficher();
 
         livre2.afficher();
+
+        livre1.changerAuteur("Marcel");
 
     }
 
