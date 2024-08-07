@@ -68,6 +68,13 @@ public class Cercle {
 
     }
 
+    public void afficher(){
+
+
+
+        
+    }
+
 
 
 
