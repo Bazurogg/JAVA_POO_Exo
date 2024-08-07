@@ -39,8 +39,12 @@ public class Livre {
         return NbPages;
     }
 
+    // setter Nb de pages avec filtre
     public void setNbPages(Integer nbPages) {
+
+        if (nbPages > 0);
         NbPages = nbPages;
+
     }
 
     // Methode
@@ -62,4 +66,6 @@ public class Livre {
         livre2.afficher();
 
     }
+
+
 }
